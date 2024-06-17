@@ -1,0 +1,464 @@
+html{
+    display: flex;
+    justify-content: center;
+    /* max-width: 1080px; */
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* max-width: 75rem; */
+    padding: 0;
+    margin: 0;
+    background-color: #e8dccc;
+}
+
+/* class */
+
+
+
+footer>h2{
+    padding: 15px 0 0 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #cbc0b1;
+    font-size: 3rem;
+}
+
+.nav{
+    color: whitesmoke;
+}
+
+.nav>a{
+    font-family: 'Geologica', sans-serif;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    color: #a59784;
+    transition: 0.3s;
+}
+
+.nav>a:hover{
+    color: whitesmoke;
+}
+
+.subtitle{
+    font-family: 'Geologica', sans-serif;
+    padding: 15px 0 0 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header>h2{
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #cbc0b1;
+    font-size: 2rem;
+}
+
+.boxes{
+    padding: 0 0 20px 0;
+    width: 100vw;
+    height: 19vh;
+    margin-bottom: 8rem;
+}
+
+.boxes>.box{
+    width: 10vw;
+    height: 10vw;
+    background-color: #692122;
+    margin: 0 20px 0 20px;
+}
+
+.cards>.banner{
+    overflow-x: hidden;
+    height: 100vh;
+    background-color:whitesmoke;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #302c2c;
+}
+
+.img1{
+    overflow-y: hidden;
+    background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/100.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.img1:hover{
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/100.png");
+    background-size: 215%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    overflow-y: hidden;
+    background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/tkl80.jpg");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.img2:hover{
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/tkl80.jpg");
+    background-size: 215%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    overflow-y: hidden;
+    background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/75box.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.img3:hover{
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/75box.png");
+    background-size: 215%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    overflow-y: hidden;
+    background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/60.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.img4:hover{
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/60.png");
+    background-size: 215%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img5{
+    overflow-y: hidden;
+    background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/custom.jpg");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.img5:hover{
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/custom.jpg");
+    background-size: 215%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-f{
+    width: 32rem !important;
+    height: 16rem !important;
+    margin: 1rem;
+    background-color: #525252;
+}
+
+.cards-size>.half-100-m.h>.card-a{
+    background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/switch.jpg");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.cards-size>.half-100-m.h>.card-a:hover {
+	background:linear-gradient(to bottom,#38383837 5%, #0f0f0f66 100%), url("../img/switch.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100-m.h>.card-b{
+     background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/mods.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100-m.h>.card-b:hover {
+	background:linear-gradient(to bottom, #38383837 5%, #0f0f0f66 100%), url("../img/mods.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100-m.h>.card-c{
+     background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/stab.png");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100-m.h>.card-c:hover {
+	background:linear-gradient(to bottom, #38383837 5%, #0f0f0f66 100%), url("../img/stab.png");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100-m.h>.card-d{
+     background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/lube.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100-m.h>.card-d:hover {
+	background:linear-gradient(to bottom, #38383837 5%, #0f0f0f66 100%), url("../img/lube.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.box-ft{
+    width: 33rem !important;
+    height: 16rem !important;
+    margin: 1rem 0;
+    background-color: #525252;
+}
+
+
+.cards-size>.half-100-m.h>.card-e{
+    background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/wireless.jpg");
+   background-size: 100%;
+   display:inline-block;
+   cursor:pointer;
+   font-size:17px;
+   text-decoration:none;
+   text-shadow:0px 1px 0px #3d3d3d;
+   background-position: center;
+   transition: 0.3s;
+   background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100-m.h>.card-e:hover {
+   background:linear-gradient(to bottom, #38383837 5%, #0f0f0f66 100%), url("../img/wireless.jpg");
+   background-size: 110%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.cards-size>.half-100-m.h>.card-f{
+     background:linear-gradient(to bottom, #3838381e 5%, #0f0f0f34 100%), url("../img/wired.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100-m.h>.card-f:hover {
+	background:linear-gradient(to bottom, #38383837 5%, #0f0f0f66 100%), url("../img/wired.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*------------------------ preset --------------------------------*/
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin: 0;
+    height: 4rem;
+    width: 100vw;
+    background-color: #302c2c;
+  }
+
+footer{
+    margin-top: -40px;
+    height: 16rem;
+    width: 100vw;
+    background-color: #302c2c;
+}
+
+.stage-card{
+    width: 100vw;
+    padding: 1rem 0;
+    color: whitesmoke;
+    background-color: #302c2c;
+    text-align: center;
+	font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    
+    margin: 0;
+}
+
+p.desc{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 20rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+p.desc:hover{
+    font-size: 2rem;
+    color: white;
+    line-height: 20.5rem;
+    text-align: center;
+}
+
+p.desc-m{
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 27rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+p.desc-m:hover{
+    font-size: 2rem;
+    color: white;
+    line-height: 27.5rem;
+    text-align: center;
+}
+
+
+.stage{
+    width: 100vw;
+    background-color: #a59784;
+    height: 1vw;
+}
+
+.debug{
+    background-color: red;
+}
+
+.half-screen{
+    width: 50vw;
+}
+
+.fill{
+    width: 100vw;
+}
+
+.full{
+    height: 100vw;
+}
+
+.half-100{
+    display: inline-block;
+    max-width: 50%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.half-100-m{
+    display: inline-block;
+    max-width: 70%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.v{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h{
+    display: flex;
+    flex-direction: row;
+  }

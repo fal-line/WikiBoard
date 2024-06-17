@@ -1,0 +1,477 @@
+html{
+    display: flex;
+    justify-content: center;
+    /* max-width: 1080px; */
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* max-width: 75rem; */
+    padding: 0;
+    margin: 0;
+    background-color: #e8dccc;
+}
+
+/* class */
+
+.banner-img1{
+    position: relative;
+    background: linear-gradient(to right, rgba(255,255,255,0) 20%,
+    rgba(255,255,255,1)), url("../img/kb-1-alt.jpg");
+    height: 30vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.banner-img1-z>.cards{
+    text-align: right;
+}
+
+.banner-img1-z{
+    z-index: 1;
+}
+
+.cards-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 8vw;    
+    align-items: flex-end;
+    flex-direction: column;
+    height: 30vw;
+    color: white;
+}
+
+.cards-banner>.card-1{
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: 500;
+    padding: 1.5rem 0.5rem 1.5rem 2rem;
+    background-color: rgba(0,0,0,0.8);
+	font-size: 2.5rem;
+}
+
+
+/* .cards-banner>.button{
+    color: black;
+    font-family: 'Barlow', sans-serif;
+
+} */
+
+.cards-banner>.button {
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: 'Roboto Mono', monospace;
+	background-color:#525252;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	margin:0.6rem 2rem;
+	padding:0.6rem 2rem;
+	font-size: 1.5rem;
+    text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+}
+
+.button:hover {
+	background-color:#050505;
+}
+
+.cards-banner>.button:active {
+	position:relative;
+	top:1px;
+}
+
+.cards-size>.card-1{
+    width: 100vw;
+    /* font-family: 'Roboto Mono', monospace; */
+    padding: 1rem 0;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+	font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.box{
+    width: 32rem!important;
+    height: 16rem!important;
+    margin: 1rem;
+    background-color: #525252;
+}
+
+.cards-size>.half-100.h>.card-a{
+    background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/100.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.cards-size>.half-100.h>.card-a:hover {
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/100.png");
+    background-size: 130%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100.h>.card-b{
+     background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/tkl80-alt.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100.h>.card-b:hover {
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/tkl80-alt.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100.h>.card-c{
+     background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/75-alt.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100.h>.card-c:hover {
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/75-alt.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.half-100.h>.card-d{
+     background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/60.png");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.half-100.h>.card-d:hover {
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/60.png");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards-size>.card-e{
+     background:linear-gradient(to bottom, #52525259 5%, #1c1c1cc0 100%), url("../img/custom-alt.jpg");
+    background-size: 100%;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+
+    background-position: center;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+
+.cards-size>.card-e:hover {
+	background:linear-gradient(to bottom, #38383892 5%, #0f0f0faf 100%), url("../img/custom-alt.jpg");
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.price{
+    margin: 2rem 0;
+}
+
+.price>.right{
+    margin: 0 2rem;
+}
+
+.price>.half-100>.card-a{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    background-color: whitesmoke;
+    height: auto;
+    width: 48rem;
+    padding: 2rem 2.2rem ;
+}
+
+.price>.half-100>.card-a>span{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4rem;
+    background-color: #e8dccc;
+    padding: 5px 8px;
+}
+
+.price>.half-100>.card-b{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.1rem;
+    color: black;
+    background-color: whitesmoke;
+    height: auto;
+    width: 48rem;
+    padding: 1rem 2.2rem ;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.price>.half-100>.card-b>span{
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: #302c2c;
+    padding: 5px 8px;
+    margin: 0 2px 0 2px;
+}
+
+.price>.half-100>.card-aa{
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.22rem;
+    color: black;
+    background-color: whitesmoke;
+    height: auto;
+    width: 60rem;
+    margin: 10px 2rem 10px 0;
+    padding: 3px 0 ;
+    line-height: 35px;
+}
+
+.price>.half-100>.card-aa>span.card-aa{
+    font-family: 'Roboto Mono', monospace;
+    color: whitesmoke;
+    font-size: 1rem;
+    background-color: #a59784;
+    padding: 5px 8px;
+    margin: 0 10px 8px 0 ;
+}
+
+.button-shop-a{
+    width: 20rem!important;
+    height: 5rem!important;
+    margin: 1rem;
+	border-radius:15px;
+    background: url("../img/sopi.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+	border:3px solid rgba(0,0,0,0.4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-shop-b{
+    width: 20rem!important;
+    height: 5rem!important;
+    margin: 1rem;
+	border-radius:15px;
+    background: url("../img/tokped.png");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+	border:3px solid rgba(0,0,0,0.4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-shop-c{
+    width: 20rem!important;
+    height: 11rem!important;
+    margin: 1rem;
+	border-radius:15px;
+    background: url("../img/ggs.jpg");
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+	border:3px solid rgba(0,0,0,0.4);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer>h2{
+    padding: 15px 0 0 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #cbc0b1;
+    font-size: 3rem;
+}
+
+.nav{
+    color: whitesmoke;
+}
+
+.nav>a{
+    font-family: 'Geologica', sans-serif;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d3d3d;
+    color: #a59784;
+    transition: 0.3s;
+}
+
+.nav>a:hover{
+    color: whitesmoke;
+}
+
+.subtitle{
+    font-family: 'Geologica', sans-serif;
+    padding: 15px 0 0 0;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header>h2{
+    margin: 0;
+    padding: 15px 0 0 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #cbc0b1;
+    font-size: 2rem;
+}
+
+/*------------------------ preset --------------------------------*/
+
+header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin: 0;
+    height: 4rem;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+footer{
+    margin-top: 100px;
+    height: 16rem;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.stage-card{
+    width: 100vw;
+    padding: 1rem 0;
+    color: whitesmoke;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+	font-size: 4rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p.desc{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    line-height: 22rem;
+    text-align: center;
+    transition: 0.3s;
+}
+
+p.desc:hover{
+    font-size: 2rem;
+    color: white;
+    line-height: 21.5rem;
+    text-align: center;
+}
+
+
+.stage{
+    width: 100vw;
+    background-color: #a59784;
+    height: 1vw;
+}
+
+.debug{
+    background-color: red;
+}
+
+.half-screen{
+    width: 50vw;
+}
+
+.fill{
+    width: 100vw;
+}
+
+.half-100{
+    display: inline-block;
+    max-width: 50%;
+}
+
+.half-100{
+    display: inline-block;
+    max-width: 50%;
+}
+
+.half-75{
+    display: inline-block;
+    max-width: 75%;
+    
+}
+.half-25{
+    display: inline-block;
+    max-width: 25%;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.v{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.h{
+    display: flex;
+    flex-direction: row;
+  }
